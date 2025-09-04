@@ -1,0 +1,51 @@
+# ===== OS & Editor files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ===== Logs & Temp files =====
+*.log
+*.tmp
+*.swp
+
+# ===== Build & Cache =====
+dist/
+build/
+.cache/
+*.lock
+
+# ===== Dependencies =====
+node_modules/
+vendor/
+
+# ===== Environment files (keep secrets safe) =====
+.env
+.env.local
+.env.*.local
+
+# ===== Compiled / Executable files =====
+*.exe
+*.dll
+*.class
+*.o
+*.out
+
+# ===== Ignore backup files =====
+*.bak
+*.old
+
+# ===== Do NOT ignore website files =====
+!*.html
+!*.css
+!*.js
+!*.jpg
+!*.jpeg
+!*.png
+!*.gif
+!*.svg
+!*.ico
+!*.webp
+!*.json
+!*.md

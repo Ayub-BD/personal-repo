@@ -4,103 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My contact</title>
-    <style>
-         body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-        }
-        header{
-            background-color: purple;
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 12px 30px;
-        }
-        header .div{
-            font-size: 22px;
-            font-weight: bold;
-        }
-        nav ul{
-            list-style: none;
-            display: flex;
-            margin: 0;
-            padding: 0;
-        }
-        nav ul li {
-            margin-left: 25px;
-        }
-       
-        nav ul li a{
-            color: white;
-            text-decoration: none;
-            font-weight: 800;
-        }
-        nav ul li .ir{
-            border-bottom: 2px solid white;
-        }
-        main{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 40px 60px;
-            background: white;
-            min-height: 70vh;
-            gap: 40px;
-        }
-        .text {
-            flex: 1;
-        }
-        .text h2{
-            font-size: 32px;
-            font-weight: bold;
-            color: purple;
-            margin-bottom: 20px;
-        }
-        form label{
-            font-size: 14px;
-            color: red;
-            font-weight: bold;
-        }
-        form input, form textarea{
-            padding: 10px;
-            border: 1px solid purple;
-            border-radius: 4px;
-            font-size: 14px;
-        }
-        form button{
-            background: purple;
-            color: white;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-            width: 100px;
-            font-weight: bold;
-        }
-        form button:hover{
-            background: #256428;
-        }
-        .pic img{
-            width: 260px;
-            height: auto;
-            border-radius: 6px;
-            border: 2px solid green;
-        }
-         footer{
-            background-color: purple;
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            text-align: center;
-            padding: 10px 30px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <header>
-        <div class="div">Violet</div>
+        <div class="div">Abu Ayub Bhuyan</div>
         <nav>
             <ul class="ul">
                 <li><a href="index.html">home</a></li>
@@ -110,9 +18,10 @@
     </header>
     
     <main>
-        <div class="text">
+        <div>
         <h2>Contact Me</h2>
         </div>
+        <div class="k">
         <form>
             <label for="name">Name:-</label><br>
             <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
@@ -125,6 +34,7 @@
             <button type="submit">Send</button>
             <button type="reset">Reset</button>
         </form>
+        </div>
         <div class="pic">
             <img src="picture/IMG_20250512_092941.jpg" width="160" height="250" class="ur">
         </div>
