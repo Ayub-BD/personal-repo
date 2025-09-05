@@ -15,4 +15,4 @@ TECH STACK
 IMAGE
  -add my photo
 Click here for see my potfolio
-https://github.com/Ayub-BD/personal-repo
+https://ayub-bd.github.io/personal-repo/
